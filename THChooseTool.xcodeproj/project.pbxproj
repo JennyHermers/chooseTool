@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5576573A1FFB7CAD00349D15 /* FYLCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5576572F1FFB7CAD00349D15 /* FYLCity.plist */; };
+		5576573B1FFB7CAD00349D15 /* FYLCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 557657311FFB7CAD00349D15 /* FYLCityModel.m */; };
+		5576573C1FFB7CAD00349D15 /* FYLCityPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 557657331FFB7CAD00349D15 /* FYLCityPickView.m */; };
+		5576573D1FFB7CAD00349D15 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 557657361FFB7CAD00349D15 /* NSObject+YYModel.m */; };
+		5576573E1FFB7CAD00349D15 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 557657381FFB7CAD00349D15 /* YYClassInfo.m */; };
+		55B6050C1FF4E5FA00130829 /* THChooseSexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6050B1FF4E5FA00130829 /* THChooseSexView.m */; };
+		55B6050F1FF4E73A00130829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6050E1FF4E73A00130829 /* ViewController.m */; };
+		55B605161FF4EB1200130829 /* THScrollChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B605151FF4EB1200130829 /* THScrollChooseView.m */; };
 		55F7F5FA1FF4DFF7007D1B1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7F5F91FF4DFF7007D1B1F /* AppDelegate.m */; };
-		55F7F5FD1FF4DFF7007D1B1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F7F5FC1FF4DFF7007D1B1F /* ViewController.m */; };
 		55F7F6001FF4DFF7007D1B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F7F5FE1FF4DFF7007D1B1F /* Main.storyboard */; };
 		55F7F6021FF4DFF7007D1B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F7F6011FF4DFF7007D1B1F /* Assets.xcassets */; };
 		55F7F6051FF4DFF7007D1B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F7F6031FF4DFF7007D1B1F /* LaunchScreen.storyboard */; };
@@ -35,11 +42,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5576572F1FFB7CAD00349D15 /* FYLCity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FYLCity.plist; sourceTree = "<group>"; };
+		557657301FFB7CAD00349D15 /* FYLCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLCityModel.h; sourceTree = "<group>"; };
+		557657311FFB7CAD00349D15 /* FYLCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLCityModel.m; sourceTree = "<group>"; };
+		557657321FFB7CAD00349D15 /* FYLCityPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYLCityPickView.h; sourceTree = "<group>"; };
+		557657331FFB7CAD00349D15 /* FYLCityPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYLCityPickView.m; sourceTree = "<group>"; };
+		557657351FFB7CAD00349D15 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		557657361FFB7CAD00349D15 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		557657371FFB7CAD00349D15 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		557657381FFB7CAD00349D15 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		557657391FFB7CAD00349D15 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		55B6050A1FF4E5FA00130829 /* THChooseSexView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THChooseSexView.h; sourceTree = "<group>"; };
+		55B6050B1FF4E5FA00130829 /* THChooseSexView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THChooseSexView.m; sourceTree = "<group>"; };
+		55B6050D1FF4E73A00130829 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55B6050E1FF4E73A00130829 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55B605141FF4EB1200130829 /* THScrollChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THScrollChooseView.h; sourceTree = "<group>"; };
+		55B605151FF4EB1200130829 /* THScrollChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THScrollChooseView.m; sourceTree = "<group>"; };
 		55F7F5F51FF4DFF7007D1B1F /* THChooseTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THChooseTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F7F5F81FF4DFF7007D1B1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55F7F5F91FF4DFF7007D1B1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55F7F5FB1FF4DFF7007D1B1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55F7F5FC1FF4DFF7007D1B1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55F7F5FF1FF4DFF7007D1B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55F7F6011FF4DFF7007D1B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F7F6041FF4DFF7007D1B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +99,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5576572E1FFB7CAD00349D15 /* 城市选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				5576572F1FFB7CAD00349D15 /* FYLCity.plist */,
+				557657301FFB7CAD00349D15 /* FYLCityModel.h */,
+				557657311FFB7CAD00349D15 /* FYLCityModel.m */,
+				557657321FFB7CAD00349D15 /* FYLCityPickView.h */,
+				557657331FFB7CAD00349D15 /* FYLCityPickView.m */,
+				557657341FFB7CAD00349D15 /* YYModel */,
+			);
+			path = "城市选择器";
+			sourceTree = "<group>";
+		};
+		557657341FFB7CAD00349D15 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				557657351FFB7CAD00349D15 /* NSObject+YYModel.h */,
+				557657361FFB7CAD00349D15 /* NSObject+YYModel.m */,
+				557657371FFB7CAD00349D15 /* YYClassInfo.h */,
+				557657381FFB7CAD00349D15 /* YYClassInfo.m */,
+				557657391FFB7CAD00349D15 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		55B605061FF4E5A500130829 /* 性别选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				55B6050A1FF4E5FA00130829 /* THChooseSexView.h */,
+				55B6050B1FF4E5FA00130829 /* THChooseSexView.m */,
+			);
+			path = "性别选择器";
+			sourceTree = "<group>";
+		};
+		55B605101FF4EACB00130829 /* 滚轮选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				55B605141FF4EB1200130829 /* THScrollChooseView.h */,
+				55B605151FF4EB1200130829 /* THScrollChooseView.m */,
+			);
+			path = "滚轮选择器";
+			sourceTree = "<group>";
+		};
 		55F7F5EC1FF4DFF7007D1B1F = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +165,13 @@
 		55F7F5F71FF4DFF7007D1B1F /* THChooseTool */ = {
 			isa = PBXGroup;
 			children = (
+				5576572E1FFB7CAD00349D15 /* 城市选择器 */,
+				55B605101FF4EACB00130829 /* 滚轮选择器 */,
+				55B605061FF4E5A500130829 /* 性别选择器 */,
 				55F7F5F81FF4DFF7007D1B1F /* AppDelegate.h */,
 				55F7F5F91FF4DFF7007D1B1F /* AppDelegate.m */,
-				55F7F5FB1FF4DFF7007D1B1F /* ViewController.h */,
-				55F7F5FC1FF4DFF7007D1B1F /* ViewController.m */,
+				55B6050D1FF4E73A00130829 /* ViewController.h */,
+				55B6050E1FF4E73A00130829 /* ViewController.m */,
 				55F7F5FE1FF4DFF7007D1B1F /* Main.storyboard */,
 				55F7F6011FF4DFF7007D1B1F /* Assets.xcassets */,
 				55F7F6031FF4DFF7007D1B1F /* LaunchScreen.storyboard */,
@@ -241,6 +308,7 @@
 				55F7F6051FF4DFF7007D1B1F /* LaunchScreen.storyboard in Resources */,
 				55F7F6021FF4DFF7007D1B1F /* Assets.xcassets in Resources */,
 				55F7F6001FF4DFF7007D1B1F /* Main.storyboard in Resources */,
+				5576573A1FFB7CAD00349D15 /* FYLCity.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +333,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55F7F5FD1FF4DFF7007D1B1F /* ViewController.m in Sources */,
 				55F7F6081FF4DFF7007D1B1F /* main.m in Sources */,
+				5576573C1FFB7CAD00349D15 /* FYLCityPickView.m in Sources */,
+				55B605161FF4EB1200130829 /* THScrollChooseView.m in Sources */,
+				5576573D1FFB7CAD00349D15 /* NSObject+YYModel.m in Sources */,
+				55B6050C1FF4E5FA00130829 /* THChooseSexView.m in Sources */,
+				55B6050F1FF4E73A00130829 /* ViewController.m in Sources */,
+				5576573B1FFB7CAD00349D15 /* FYLCityModel.m in Sources */,
+				5576573E1FFB7CAD00349D15 /* YYClassInfo.m in Sources */,
 				55F7F5FA1FF4DFF7007D1B1F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
